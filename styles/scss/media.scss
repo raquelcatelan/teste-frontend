@@ -1,0 +1,174 @@
+
+// 1024
+@media (max-width:1024px){
+    .filtro{
+        width: 45%;
+    }
+
+    .seletor{
+        margin-left: 25%;
+        
+    }   
+
+    .botao-filtrar{
+
+        width: 60px;
+        height: 30px;
+        margin-left: 43%;
+     }
+
+}
+
+
+// 768
+@media (max-width:768px){
+    .filtro{
+        width: 60%;
+    }
+
+    .seletor{
+        margin-left: 25%;
+        
+    }   
+
+    .botao-filtrar{
+
+        width: 60px;
+        height: 30px;
+        margin-left: 40%;
+     }
+    
+
+}
+
+
+// 640
+@media (max-width:640px){
+    .filtro{
+        background-color:$backgroundFiltro;
+        width: 70%;
+        display: flex;
+        justify-content: center;  
+        margin: 0 auto;
+        margin-top:$marginTop;
+        margin-top: 3%;
+        border-radius: $borderRadius;
+        box-shadow: 10px 10px 31px -5px rgba(77,79,76,1);
+    
+    }
+}
+
+
+
+
+
+// 425
+@media (max-width:425px){
+    
+    .filtro{
+       
+        width: 60%;
+        margin-top: 8%;
+
+    }
+
+    .texto{
+        font-size: 20px;
+    }
+
+    .box-filtro{
+  
+        margin-bottom: 5%;
+        
+     
+    }
+
+    .pokebola-icon , .pokebola-icon2 { 
+        width: 15px;
+        height: 15px;
+        margin-left: 20px;
+    }
+
+    .input-inicial, .input-final{
+        width: 70%;
+        height: 25px;
+       margin-bottom: 10px;
+        border-radius: 5px;
+     }
+
+   .seletor{
+    margin-left: 15%;
+    
+    }   
+
+    .seletores{
+        width: 20%;
+        height: 20px;
+       
+    }
+    
+    .seletores2{
+        width: 60%;
+        height: 20px;
+        
+    
+    }
+
+    .botao-filtrar{
+       
+        width: 55px;
+        height: 25px;
+        margin-top:$marginTop2 ;
+        margin-left: 35%;
+    }
+
+}
+
+// 375
+@media (max-width:375px){
+
+    .seletor{
+        margin-left: 15%;
+    }
+
+
+    .seletores{
+        width: 25%;
+        height: 20px;
+      
+    }
+    
+    .botao-filtrar{
+
+       margin-top:$marginTop2 ;
+       margin-left: 35%;
+       width: 55px;
+       height: 25px;
+    }
+
+}
+
+// 320
+@media (max-width:320px){
+
+    .seletor{
+        margin-left: 15%;
+    }
+
+
+    .seletores{
+        width: 25%;
+        height: 20px;
+      
+    }
+    
+    .botao-filtrar{
+
+       margin-top:$marginTop2 ;
+       margin-left: 35%;
+       width: 55px;
+       height: 24px;
+
+    }
+
+}

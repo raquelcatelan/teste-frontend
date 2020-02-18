@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: auto;
+}
+
+body{
+    background-color:$background;
+    font-family:$font ;
+    font-size: $fontSize;
+}
+
+
+
+
+// NAV LOGO POKENMON
+.logo-pokemon{
+    margin: 0 auto;
+    margin-top: $marginTop;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+// FILTRO
+.filtro{
+    background-color:$backgroundFiltro;
+    width: 30%;
+    display: flex;
+    justify-content: center;  
+    margin: 0 auto;
+    margin-top:$marginTop;
+    margin-top: 3%;
+    border-radius: $borderRadius;
+    box-shadow: 10px 10px 31px -5px rgba(77,79,76,1);
+
+}
+
+
+
+.texto{
+    text-align: center;
+    color: $corTexto;
+
+}
+
+.box-filtro{
+  
+    margin-bottom: 3%;
+    
+ 
+}
+
+
+// ICONES POKEBOLA 
+.pokebola-icon , .pokebola-icon2 { 
+    width: 20px;
+    height: 20px;
+    margin-left: 35px
+}
+
+
+// INPUTS 
+.input-inicial, .input-final{
+     width: 80%;
+     height: 30px;
+    margin-bottom: 10px;
+     border-radius: 5px;
+}
+
+// SELETORES 
+.seletor{
+    margin-left: 25%;
+}
+
+.seletores{
+    width: 20%;
+    height: 30px;
+    border-radius: $borderRadius2;
+}
+
+.seletores2{
+    width: 50%;
+    height: 30px;
+    border-radius: $borderRadius2;
+
+}
+
+
+// BOTAO DE FILTRAR 
+.botao-filtrar{
+    
+    background-color: $corButton;
+    color: $corFont2;
+    border-radius:$borderRadius2 ;
+    margin-top:$marginTop2 ;
+    margin-left: 40%;
+    width: 60px;
+    height: 30px;
+    
+   
+}
+
+.botao-filtrar:hover {
+
+    background-color:$buttonHover;
+    color:$corButton ;
+
+}
+
+// CONTAINER
+.container{
+    background-color:$backgroundContainer ; 
+     width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 10px;
+ }

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: auto;
+}
+
+body {
+  background-color: #c2eaf0;
+  font-family: "Bangers";
+  font-size: 25px;
+}
+
+.logo-pokemon {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.filtro {
+  background-color: #00f7ff;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-top: 3%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 31px -5px #4d4f4c;
+}
+
+.texto {
+  text-align: center;
+  color: blue;
+}
+
+.box-filtro {
+  margin-bottom: 3%;
+}
+
+.pokebola-icon, .pokebola-icon2 {
+  width: 20px;
+  height: 20px;
+  margin-left: 35px;
+}
+
+.input-inicial, .input-final {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.seletor {
+  margin-left: 25%;
+}
+
+.seletores {
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.seletores2 {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.botao-filtrar {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 40%;
+  width: 60px;
+  height: 30px;
+}
+
+.botao-filtrar:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+.container {
+  background-color: white;
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .filtro {
+    width: 45%;
+  }
+
+  .seletor {
+    margin-left: 25%;
+  }
+
+  .botao-filtrar {
+    width: 60px;
+    height: 30px;
+    margin-left: 43%;
+  }
+}
+@media (max-width: 768px) {
+  .filtro {
+    width: 60%;
+  }
+
+  .seletor {
+    margin-left: 25%;
+  }
+
+  .botao-filtrar {
+    width: 60px;
+    height: 30px;
+    margin-left: 40%;
+  }
+}
+@media (max-width: 640px) {
+  .filtro {
+    background-color: #00f7ff;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 31px -5px #4d4f4c;
+  }
+}
+@media (max-width: 425px) {
+  .filtro {
+    width: 60%;
+    margin-top: 8%;
+  }
+
+  .texto {
+    font-size: 20px;
+  }
+
+  .box-filtro {
+    margin-bottom: 5%;
+  }
+
+  .pokebola-icon, .pokebola-icon2 {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+  }
+
+  .input-inicial, .input-final {
+    width: 70%;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .seletor {
+    margin-left: 15%;
+  }
+
+  .seletores {
+    width: 20%;
+    height: 20px;
+  }
+
+  .seletores2 {
+    width: 60%;
+    height: 20px;
+  }
+
+  .botao-filtrar {
+    width: 55px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 35%;
+  }
+}
+@media (max-width: 375px) {
+  .seletor {
+    margin-left: 15%;
+  }
+
+  .seletores {
+    width: 25%;
+    height: 20px;
+  }
+
+  .botao-filtrar {
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 55px;
+    height: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .seletor {
+    margin-left: 15%;
+  }
+
+  .seletores {
+    width: 25%;
+    height: 20px;
+  }
+
+  .botao-filtrar {
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 55px;
+    height: 24px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+
+<!-- BODY -->
+
+<body>
+
+    <!-- LOGO IMAGEM  -->
+    <img class="logo-pokemon"
+        src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
+        alt="Pokemon Logo">
+
+
+        <!-- FILTRO -->
+    <section class="filtro">
+        <div class="box-filtro">
+
+            <p class="texto">
+                Procure um Pokemon:
+            </p>
+
+            <div class="inputs">
+                <img  class="pokebola-icon" src="./imagens/pokeball (1).svg" alt="icone pokebola">
+                <input data-type="name" type="text" id="inicial-numero" class="input-inicial" autocomplete="off"
+                    spellcheck="false" dir="auto" placeholder="Número inicial ">
+                    <img  class="pokebola-icon2" src="./imagens/pokeball (1).svg" alt="icone pokebola">
+                <input data-type="name" type="text" id="final-numero" class="input-final" autocomplete="off"
+                    spellcheck="false" dir="auto" placeholder="Número final ">
+            </div>
+
+
+            <div class="seletor">
+                <select  class="seletores" name="select">
+                    <option value="valor1" selected>10</option>
+                    <option value="valor2">20</option>
+                    <option value="valor3">30</option>
+                </select>
+
+                <select class="seletores2" name="select">
+                    <option value="valor1" selected>Scroll Infinito</option>
+                    <option value="valor2">Paginação</option>
+
+                </select>
+            </div>
+
+
+            <button class="botao-filtrar">Buscar</button>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- AQUI É ONDE APARECEM OS POKEMONS -->
+    <section class="container">
+
+
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "teste-frontend",
+  "version": "1.0.0",
+  "description": "Crie uma aplicação utilizando e consumindo a pokéAPI.\r ​\r ## Lista de Pokémons ##\r Crie uma lista de pokémons em ordem crescente. Cada item da lista deve conter imagem, número, nome e tipo.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass styles/styles.scss styles/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raquelcatelan/teste-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raquelcatelan/teste-frontend/issues"
+  },
+  "homepage": "https://github.com/raquelcatelan/teste-frontend#readme",
+  "devDependencies": {
+    "sass": "^1.25.0"
+  }
+}
