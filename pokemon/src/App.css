@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: auto;
+}
+
+body {
+  background-color: #c2eaf0;
+  /* font-family: "Bangers"; */
+  font-size: 25px;
+}
+
+.logo-pokemon {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.lista-pokemons{
+  display: flex;
+  justify-content: center;
+  margin-top:50px ;
+}
